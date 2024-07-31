@@ -1,0 +1,32 @@
+[debug] [2024-07-31T03:25:10.269Z] ----------------------------------------------------------------------
+[debug] [2024-07-31T03:25:10.278Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HERO NO 1\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-07-31T03:25:10.279Z] CLI Version:   13.14.2
+[debug] [2024-07-31T03:25:10.280Z] Platform:      win32
+[debug] [2024-07-31T03:25:10.281Z] Node Version:  v20.15.1
+[debug] [2024-07-31T03:25:10.281Z] Time:          Wed Jul 31 2024 08:25:10 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-07-31T03:25:10.282Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-31T03:25:10.292Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=127615610&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-07-31T03:25:11.220Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-07-31T03:25:11.221Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-07-31T03:26:37.883Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2024-07-31T03:26:37.884Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2024-07-31T03:26:38.372Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2024-07-31T03:26:38.373Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] +  Success! Logged in as totalnetsolution2@gmail.com 
+[debug] [2024-07-31T03:26:38.547Z] Error: ENOENT: no such file or directory, open 'C:\Users\HERO NO 1\AppData\Roaming\npm\node_modules\firebase-tools\templates\loginFailure.html'
+    at async open (node:internal/fs/promises:639:25)
+    at async readFile (node:internal/fs/promises:1249:14)
+    at async Server.<anonymous> (C:\Users\HERO NO 1\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:343:30)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-07-31T03:26:38.838Z] Error when notifying about new CLI updates:
